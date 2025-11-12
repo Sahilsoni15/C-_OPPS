@@ -1,0 +1,17 @@
+// OOPS- CLASSES AND OBJECTS
+
+    // C++ --> initially called --> C with classes by strousstroup
+    // class --> extension of structures in C
+    // Structurs had limitations --> members are public
+    //       --> members are public
+    //       --> No methods
+
+    // classes --> structers +more
+    // classese --> can have methods and proerties
+    // classes --> can make few members as private & few as public
+    // structures in c++ are typedef
+    // you can declare objects along with the class declaration like this:
+    /* class Employee{
+        //class defination
+    } sahil,rohit,mayank; */
+    // sahil.salary =8 makes no sense if salary is private
