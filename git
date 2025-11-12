@@ -1,0 +1,92 @@
+(base) sahilsoni@Sahils-MacBook-Air C++ complete % git init
+Initialized empty Git repository in /Users/sahilsoni/C++ complete/.git/
+(base) sahilsoni@Sahils-MacBook-Air C++ complete % git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        15
+        15.cpp
+        16
+        16.cpp
+        17
+        17.cpp
+        18
+        18.cpp
+        19
+        19.cpp
+        7
+        7.cpp
+        8
+        8.cpp
+        OOPS/
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) sahilsoni@Sahils-MacBook-Air C++ complete % git add c++
+ complete
+fatal: pathspec 'c++' did not match any files
+(base) sahilsoni@Sahils-MacBook-Air C++ complete % git add C++
+ complete
+fatal: pathspec 'C++' did not match any files
+(base) sahilsoni@Sahils-MacBook-Air C++ complete % git add 
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+(base) sahilsoni@Sahils-MacBook-Air C++ complete % git add --all
+(base) sahilsoni@Sahils-MacBook-Air C++ complete % git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   15
+        new file:   15.cpp
+        new file:   16
+        new file:   16.cpp
+        new file:   17
+        new file:   17.cpp
+        new file:   18
+        new file:   18.cpp
+        new file:   19
+        new file:   19.cpp
+        new file:   7
+        new file:   7.cpp
+        new file:   8
+        new file:   8.cpp
+        new file:   OOPS/21
+        new file:   OOPS/21.cpp
+        new file:   OOPS/21question
+        new file:   OOPS/21question.cpp
+        new file:   OOPS/22
+        new file:   OOPS/bankingproject.cpp
+
+(base) sahilsoni@Sahils-MacBook-Air C++ complete % git commit --m "c++"
+[master (root-commit) 04aa398] c++
+ 20 files changed, 921 insertions(+)
+ create mode 100755 15
+ create mode 100644 15.cpp
+ create mode 100755 16
+ create mode 100644 16.cpp
+ create mode 100755 17
+ create mode 100644 17.cpp
+ create mode 100755 18
+ create mode 100644 18.cpp
+ create mode 100755 19
+ create mode 100644 19.cpp
+ create mode 100755 7
+ create mode 100644 7.cpp
+ create mode 100755 8
+ create mode 100644 8.cpp
+ create mode 100755 OOPS/21
+ create mode 100644 OOPS/21.cpp
+ create mode 100755 OOPS/21question
+ create mode 100644 OOPS/21question.cpp
+ create mode 100755 OOPS/22
+ create mode 100644 OOPS/bankingproject.cpp
+(base) sahilsoni@Sahils-MacBook-Air C++ complete % git status
+On branch master
+nothing to commit, working tree clean
