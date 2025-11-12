@@ -1,4 +1,4 @@
-// Nesting Member Function
+// Nesting Member Function  -->Nesting of member functions means calling one member function of a class inside another member function of the same class.
 #include <iostream>
 using namespace std;
 
@@ -35,7 +35,7 @@ void Binary :: chck_bin(void){
 
 }
 void Binary :: ones_compliment(void){
-    chck_bin();  //Nested Function-->A nested function (in C++) means one member function of a class is called inside another member function of the same class.
+    chck_bin();  //Nesting Member Function
     for(int i=0;i < s.length();i++){
         if(s.at(i)=='0'){
             s.at(i)='1';
